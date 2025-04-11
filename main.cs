@@ -78,7 +78,7 @@ public class KaryawanMagang : Karyawan
 
     public override double HitungGaji()
     {
-        return GajiPokok; // Tidak ada bonus atau potongan
+        return GajiPokok;
     }
 }
 
