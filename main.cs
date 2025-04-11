@@ -45,7 +45,6 @@ public class Karyawan
     }
 }
 
-// Karyawan Tetap
 public class KaryawanTetap : Karyawan
 {
     private double bonusTetap = 500000;
@@ -59,7 +58,6 @@ public class KaryawanTetap : Karyawan
     }
 }
 
-// Karyawan Kontrak
 public class KaryawanKontrak : Karyawan
 {
     private  double potonganKontrak = 200000;
@@ -73,7 +71,6 @@ public class KaryawanKontrak : Karyawan
     }
 }
 
-// Karyawan Magang
 public class KaryawanMagang : Karyawan
 {
     public KaryawanMagang(string nama, string id, double gajiPokok)
@@ -85,7 +82,6 @@ public class KaryawanMagang : Karyawan
     }
 }
 
-// Program Utama
 public class Program
 {
     public static void Main(string[] args)
